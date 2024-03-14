@@ -1,0 +1,27 @@
+PS C:\Users\la_ro\git_tutorial> cd C:\Users\la_ro\Documents
+PS C:\Users\la_ro\Documents> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\la_ro\Documents
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/03/14     21:56                git_challenge
+
+
+PS C:\Users\la_ro\Documents> cd git_challenge
+PS C:\Users\la_ro\Documents\git_challenge> git init
+Initialized empty Git repository in C:/Users/la_ro/Documents/git_challenge/.git/
+PS C:\Users\la_ro\Documents\git_challenge> git add hello_world.txt
+PS C:\Users\la_ro\Documents\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 5143402] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\la_ro\Documents\git_challenge> git add hello_world.txt     
+PS C:\Users\la_ro\Documents\git_challenge> git commit -m "日本語訳を追記"
+[main 270bc8c] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\la_ro\Documents\git_challenge> git log --oneline
+270bc8c (HEAD -> main) 日本語訳を追記
+5143402 hello_world.txtを追加
